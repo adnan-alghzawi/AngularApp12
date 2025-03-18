@@ -1,0 +1,31 @@
+.form-control {
+  max-width: 300px; /* أو أي عرض تراه مناسبًا */
+  margin: auto; /* لتوسيط الحقول داخل النموذج */
+}
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center; /* يضمن محاذاة العناصر في المركز عمودياً */
+  justify-content: center; /* يضمن محاذاة العناصر في المركز أفقياً */
+  background: #f0f0f5; /* لون الخلفية */
+}
+
+.form-container {
+  width: 100%; /* أو يمكن تعيين عرض محدد إذا رغبت */
+  max-width: 600px; /* الحد الأقصى لعرض النموذج */
+}
+
+.form-control {
+  display: block;
+  width: 100%; /* يجعل الحقول تملأ العرض المتاح بالكامل */
+  max-width: 300px; /* أقصى عرض للحقول */
+  margin: 10px auto; /* توسيط الحقول أفقياً */
+}
+
+.btn-primary {
+  display: block;
+  width: 100%; /* يجعل الزر يملأ العرض المتاح بالكامل */
+  max-width: 300px; /* أقصى عرض للزر */
+  margin: 20px auto; /* توسيط الزر أفقياً */
+}

@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f0f0f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.table {
+  width: 90%; /* تعديل العرض حسب الحاجة */
+  max-width: 800px; /* الحد الأقصى للعرض */
+  border-collapse: collapse; /* إزالة الفجوات بين الخلايا */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* إضافة ظل خفيف */
+  background: white; /* خلفية بيضاء للجدول */
+  border-radius: 8px; /* تقريب الحواف */
+  overflow: hidden; /* إخفاء ما يخرج عن الحدود */
+  margin: 20px auto; /* توسيط الجدول أفقيًا */
+  margin-left: 350px;
+}
+
+  .table th, .table td {
+    text-align: left; /* محاذاة النص إلى اليسار */
+    padding: 12px; /* تبطين حول النص */
+    border-bottom: 1px solid #ddd; /* خط فاصل بين الصفوف */
+  }
+
+  .table thead th {
+    background-color: #f8f8f8; /* لون خلفية الرأس */
+    font-weight: bold; /* جعل الخط غامق */
+  }
+
+  .table tbody tr:hover {
+    background-color: #f1f1f1; /* تغيير الخلفية عند تمرير الماوس */
+  }

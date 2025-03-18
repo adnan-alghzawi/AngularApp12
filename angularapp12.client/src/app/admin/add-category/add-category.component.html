@@ -1,0 +1,22 @@
+<h1>Add New category</h1>
+
+<form #category="ngForm" (ngSubmit)="postData(category.value)">
+
+  <div class="form-group col-12">
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="name" name="name" ngModel>
+  </div>
+
+
+  <div class="form-group col-12">
+    <input type="text" class="form-control" id="exampleCheck1" placeholder="image" name="img" ngModel>
+  </div>
+
+
+  <div class="form-group col-12">
+    <input type="number" class="form-control" id="exampleCheck1" placeholder="id" name="id" ngModel>
+  </div>
+
+
+
+  <button type="submit" class="btn btn-primary">add category</button>
+</form>

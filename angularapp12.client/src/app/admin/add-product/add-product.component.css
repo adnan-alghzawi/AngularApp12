@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  align-items: center; /* محاذاة العناصر في المركز عموديًا */
+  justify-content: center; /* محاذاة العناصر في المركز أفقيًا */
+  background: #f0f0f5; /* لون الخلفية */
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px; /* الحد الأقصى لعرض النموذج */
+  padding: 20px;
+  background: #ffffff; /* لون خلفية النموذج */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* الظل المطبق على النموذج */
+  border-radius: 8px; /* تقريب حواف النموذج */
+  margin-left: 500px;
+}
+
+.form-group {
+  margin-bottom: 20px; /* الفاصل بين مجموعات النموذج */
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* فاصل بين العنوان وحقل الإدخال */
+}
+
+input[type="text"], select {
+  width: 100%; /* عرض حقل الإدخال */
+  padding: 8px; /* التبطين داخل حقل الإدخال */
+  border: 1px solid #ccc; /* حدود حقل الإدخال */
+  border-radius: 4px; /* تقريب حواف حقل الإدخال */
+}
+
+button {
+  padding: 10px 20px; /* التبطين داخل الزر */
+  color: #fff; /* لون نص الزر */
+  background-color: #007bff; /* لون خلفية الزر */
+  border: none; /* إزالة الحدود */
+  border-radius: 4px; /* تقريب حواف الزر */
+  cursor: pointer; /* تغيير مؤشر الفأرة */
+}
+
+  button:hover {
+    background-color: #0056b3; /* تغيير لون خلفية الزر عند التأشير */
+  }
