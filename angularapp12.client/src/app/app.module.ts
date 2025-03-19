@@ -11,6 +11,8 @@ import { ShowProductComponent } from './admin/show-product/show-product.componen
 import { ShowCategoryComponent } from './admin/show-category/show-category.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { EditCategoryComponent } from './admin/edit-category/edit-category.component';
+import { EditProductComponent } from './admin/edit-product/edit-product.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     AddProductComponent,
     AddCategoryComponent,
     ShowProductComponent,
-    ShowCategoryComponent
+    ShowCategoryComponent,
+    EditCategoryComponent,
+    EditProductComponent
   ],
   imports: [
     BrowserModule, HttpClientModule,

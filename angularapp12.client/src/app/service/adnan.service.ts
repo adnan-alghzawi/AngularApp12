@@ -25,4 +25,21 @@ export class AdnanService {
     return this._url.get("https://67cd64b6dd7651e464ee3d63.mockapi.io/products");
   }
 
+
+  updateCategory(id: any, data: any): Observable<any> {//edit
+    return this._url.put(`https://67cd64b6dd7651e464ee3d63.mockapi.io/categories/${id}`, data)
+  }
+  getCategoryByCategoryId(id: any): Observable<any> {
+    return this._url.get(`https://67cd64b6dd7651e464ee3d63.mockapi.io/categories/${id}`);
+  }
+
+
+
+  updateProduct(id: any, data: any): Observable<any> {//edit
+    return this._url.put(`https://67cd64b6dd7651e464ee3d63.mockapi.io/products/${id}`, data);
+  }
+
+  getProductByPriductId(id: any): Observable<any> {
+    return this._url.get(`https://67cd64b6dd7651e464ee3d63.mockapi.io/products/${id}`);
+  }
 }

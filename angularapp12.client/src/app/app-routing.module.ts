@@ -5,6 +5,8 @@ import { AddProductComponent } from './admin/add-product/add-product.component';
 import { AddCategoryComponent } from './admin/add-category/add-category.component';
 import { ShowCategoryComponent } from './admin/show-category/show-category.component';
 import { ShowProductComponent } from './admin/show-product/show-product.component';
+import { EditCategoryComponent } from './admin/edit-category/edit-category.component';
+import { EditProductComponent } from './admin/edit-product/edit-product.component';
 
 const routes: Routes = [
   {
@@ -13,7 +15,9 @@ const routes: Routes = [
       { path: "addproduct", component: AddProductComponent },
       { path: "addcategory", component: AddCategoryComponent },
       { path: "showProduct", component: ShowProductComponent },
-      { path: "showCategory", component: ShowCategoryComponent }
+      { path: "showCategory", component: ShowCategoryComponent },
+      { path: "editCategory/:id", component: EditCategoryComponent },
+      { path: "editProduct/:id", component: EditProductComponent }
     ]
   }
 ];

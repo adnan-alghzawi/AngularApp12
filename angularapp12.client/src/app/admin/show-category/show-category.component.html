@@ -5,6 +5,7 @@
       <th scope="col">First</th>
       <th scope="col">Last</th>
       <th scope="col">Handle</th>
+      <th scope="col">edit</th>
     </tr>
   </thead>
   <tbody>
@@ -13,6 +14,7 @@
       <td>{{ item.name }}</td>
       <td>{{ item.img }}</td>
       <td>{{ item.id }}</td>
+      <td><a routerLink="/admin/editCategory/{{item.id}}">edit category</a></td>
     </tr>
   </tbody>
 </table>

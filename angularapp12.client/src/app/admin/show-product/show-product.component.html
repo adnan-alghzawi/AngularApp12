@@ -7,6 +7,8 @@
       <th scope="col">Last</th>
       <th scope="col">Handle</th>
       <th scope="col">#</th>
+      <th scope="col">edit</th>
+
     </tr>
   </thead>
   <tbody>
@@ -16,6 +18,7 @@
       <td>{{item.avatar}}</td>
       <td>{{item.categoryId}}</td>
       <td>{{item.id}}</td>
+      <td><a routerLink="/admin/editProduct/{{item.id}}">edit product</a></td>
     </tr>
   </tbody>
 </table>
